@@ -13,11 +13,11 @@
 			$readings = exec(‘sudo python /home/pi/Desktop/sense_readings.py ‘.$_GET[data]);
 			}
 		?>
-		<FORM NAME=”sense” METHOD=”GET”>
+		<from NAME=”sense” METHOD=”GET”>
 		<button name=”sens”>Get Data </button>
 		<div id=”log” style==”width:180px; height:30px; text-align:center;>
 		<?php echo $readings;?>
 		</div>
-		</form>
+		</from>
 	</body>
 </html>		
